@@ -1,0 +1,110 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #24252B;
+  text-align: center;
+}
+
+.attention_pic {
+  width: auto;
+  height: 20rem;
+}
+
+.section1 {
+  background-color: #1D2226;
+  width: 40rem;
+  height: auto;
+  margin: 0rem auto;
+}
+
+.section1 h1 {
+  color: white;
+  font-size: 2.4rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.section1 h3 {
+  color: white;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 1.8rem;
+}
+
+.section1 p {
+  color: white;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 27.5rem;
+  width: 40rem;
+  height: auto;
+  background-color:#1D2226;
+}
+
+.button_email{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 18px;
+}
+
+.button_linkedin{
+  margin-top: 2rem;
+  margin-right: 3rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 18px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.About_Section {
+  width: 40rem;
+  height: auto;
+  margin: 0rem auto;
+  color: white;
+  background-color: #1D2226;
+}
+
+.About_Section p {
+  line-height: 2rem;
+  margin-left: 3rem;
+  text-align: start;
+}
+
+.About_Section h2 {
+  text-align: start;
+  margin-left: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+  font-size: 2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1D2226;
+  align-items: center;
+  width: 40rem;
+  margin: 0rem auto;
+  margin-bottom: 2rem;
+  height: 4rem;
+  font-size: 3rem;
+  color: grey;
+}
+
+#one {
+  font-size: 3rem;
+}
